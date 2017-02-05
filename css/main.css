@@ -27,9 +27,13 @@ html {
 
 .banner {
   position: relative;
+  overflow: hidden;
 }
 
 .banner-content {
   position: absolute;
   bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  max-height: 200px;
 }
